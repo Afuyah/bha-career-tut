@@ -11,21 +11,21 @@
       
   </head>
  
-  <body>
+  <body style="background-color:rgb(255, 240, 255)">
      <img class= img-fluid id= "banner" src="https://bha-career-tut.afuyaah.repl.co/static/banner.jpg" style="height:36px width:100% object-fit: cover">
  <div class = "container"> 
     {%include 'nav.html' %}
     <h1 class="text-center mt-4 mb-4" >Bha Career</h1>
     <div class= "row"> 
       <div class= "col-md-6">
-    <p class ="lead" style= "font-family:roboto font-size:10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <p class ="lead" style= "font-size:20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
       </div>
-      <div class= "col-6 d-none d-md-6">
+      <div class= "col-6 d-none d-md-block col-md-6">
         <img src="https://bha-career-tut.afuyaah.repl.co/static/simage.jpg" style = "height:340px; border-radius:4px">
       </div>
       </div>
-    <h2 class="text-center">Open positions</h2>
+    <h2 class="text-center" style="">Open positions</h2>
     <div>
       {% for job in jobs %}
        {%include 'jobitem.html'%}

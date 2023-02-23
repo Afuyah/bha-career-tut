@@ -8,12 +8,7 @@ JOBS = [
     'location':'Arusha, Tanzania',
     'salary': 'ksh 45000'
   },
-  {
-    'id': 2,
-    'title' : 'Software Analyst',
-    'location':'mombasa, Kenya',
-    'salary': 'ksh 75000'
-  },
+ 
   {
     'id': 3,
     'title' : 'Web developer',
@@ -26,12 +21,7 @@ JOBS = [
     'location':'Kisumu, Kenya',
     'salary': 'ksh 47000'
  },
-  {
-    'id': 5,
-    'title' : 'Network Administrator',
-    'location':'Kisumu, Kenya',
-    'salary': 'ksh 47000'
- },
+  
 {
     'id': 6,
     'title' : 'Network Administrator',
